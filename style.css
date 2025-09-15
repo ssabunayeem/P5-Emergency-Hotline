@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+
+
+/* Google font - Hind Madurai font common style   */
+
+.hind-madurai-light {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hind-madurai-regular {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hind-madurai-medium {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hind-madurai-semibold {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hind-madurai-bold {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* ------------------------------------------------------- */
+
+/* 
+--------all color code----------
+title color        = #006747
+button bg          = #00A63E
+button border      = #D4D6D5
+light gray text    = #5c5c5c
+
+
+*/
