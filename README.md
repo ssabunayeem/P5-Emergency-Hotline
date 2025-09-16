@@ -111,7 +111,9 @@ Example: Prevents form submit when clicking a `<button>` inside a form.
 
   
 
-`let newPara = document.createElement("p"); // নতুন element তৈরি newPara.innerText = "আমি নতুন এলাম!"; // টেক্সট যোগ document.body.appendChild(newPara); // body তে ঢুকানো হলো`
+`let newPara = document.createElement("p"); 
+newPara.innerText = "প্রশ্নোত্তর শেষ !"; 
+document.body.appendChild(newPara); 
 
   
 
