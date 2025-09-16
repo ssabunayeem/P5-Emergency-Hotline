@@ -54,20 +54,6 @@ for (const call of callList) {
             document.getElementById("coin").innerText = coin;
 
 
-            /* 
-                        const historyData = {
-                            titleName: `${title}`,
-                            callNumber: `${number}`,
-                            date: new Date().toLocaleTimeString()
-                        }
-            
-                        historyList.push(historyData);
-                        console.log(historyList);
-            
-            
-             */
-
-
             // add history
 
             const date = new Date().toLocaleTimeString();
@@ -106,19 +92,6 @@ const clear = document.getElementById("clear-btn").addEventListener("click", fun
 
 
 // --------------------------Copy Number Feature-----------------------------
-/* const copyButtons = getClassList("copy-btn");
-
-for (const btn of copyButtons) {
-    btn.addEventListener("click", function () {
-        // get the number from the card
-        const number = btn.parentNode.parentNode.children[2].children[0].innerText;
-
-        // use Clipboard API
-        navigator.clipboard.writeText(number);
-    });
-}
- */
-
 
 const copyButtons = getClassList("copy-btn");
 for (const btn of copyButtons) {
