@@ -98,5 +98,12 @@ for (const btn of copyButtons) {
     btn.addEventListener("click", function () {
         const number = btn.parentNode.parentNode.children[2].children[0].innerText;
         navigator.clipboard.writeText(number);
+
+        let copyCount = getNumber("copy-count");
+        copyCount = copyCount + 1;
+
+        document.getElementById("copy-count").innerText = copyCount;
+
+        alert(`Number Has Been Copied  ${number} `);
     })
 }
